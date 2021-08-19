@@ -37,4 +37,3 @@ public class PersonDTO {
     @NotEmpty
     private List<PhoneDTO> phones;
 }
-

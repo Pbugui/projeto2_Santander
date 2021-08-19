@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.validation.constraints.NotEmpty;
@@ -26,4 +27,3 @@ public class PhoneDTO {
     @Size(min = 13, max = 14)
     private String number;
 }
-
